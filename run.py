@@ -47,6 +47,9 @@ d = np.zeros(config.N_ultrasonics)
 d_stack = np.zeros(config.N_ultrasonics+3)
 recording = True
 
+
+
+
 # 画像保存
 #running = Value("b", True)
 if config.HAVE_CAMERA and not config.fpv:
