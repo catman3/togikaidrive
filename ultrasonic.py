@@ -4,6 +4,14 @@ import RPi.GPIO as GPIO
 import config
 import numpy as np
 
+
+
+
+
+
+
+
+
 class Ultrasonic:
     def __init__(self, name):
         # 超音波発信/受信用のGPiOピン番号
